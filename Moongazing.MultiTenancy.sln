@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B72185A7-39DE-4767-A7E9-9CBB0AB34FA5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{E943458B-F729-4B04-BDB8-7C8323EF38D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.MultiTenancy.Domain", "src\core\Moongazing.MultiTenancy.Domain\Moongazing.MultiTenancy.Domain.csproj", "{5A0F29E7-DEE4-4F02-B18B-A0A3DB076D11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.MultiTenancy.Application", "src\core\Moongazing.MultiTenancy.Application\Moongazing.MultiTenancy.Application.csproj", "{05033567-0B13-4475-BB8D-688D286536F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Moongazing.MultiTenancy.Infrastructure", "src\Moongazing.MultiTenancy.Infrastructure\Moongazing.MultiTenancy.Infrastructure.csproj", "{33175C2D-42C7-4E0E-B47E-A37241914A8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Moongazing.MultiTenancy.Api", "src\Moongazing.MultiTenancy.Api\Moongazing.MultiTenancy.Api.csproj", "{2FA0A6B5-A9DF-428B-88B8-D5F5BE38C390}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A0F29E7-DEE4-4F02-B18B-A0A3DB076D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A0F29E7-DEE4-4F02-B18B-A0A3DB076D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A0F29E7-DEE4-4F02-B18B-A0A3DB076D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A0F29E7-DEE4-4F02-B18B-A0A3DB076D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05033567-0B13-4475-BB8D-688D286536F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05033567-0B13-4475-BB8D-688D286536F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05033567-0B13-4475-BB8D-688D286536F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05033567-0B13-4475-BB8D-688D286536F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33175C2D-42C7-4E0E-B47E-A37241914A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33175C2D-42C7-4E0E-B47E-A37241914A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33175C2D-42C7-4E0E-B47E-A37241914A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33175C2D-42C7-4E0E-B47E-A37241914A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA0A6B5-A9DF-428B-88B8-D5F5BE38C390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA0A6B5-A9DF-428B-88B8-D5F5BE38C390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA0A6B5-A9DF-428B-88B8-D5F5BE38C390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA0A6B5-A9DF-428B-88B8-D5F5BE38C390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E943458B-F729-4B04-BDB8-7C8323EF38D9} = {B72185A7-39DE-4767-A7E9-9CBB0AB34FA5}
+		{5A0F29E7-DEE4-4F02-B18B-A0A3DB076D11} = {E943458B-F729-4B04-BDB8-7C8323EF38D9}
+		{05033567-0B13-4475-BB8D-688D286536F5} = {E943458B-F729-4B04-BDB8-7C8323EF38D9}
+		{33175C2D-42C7-4E0E-B47E-A37241914A8C} = {B72185A7-39DE-4767-A7E9-9CBB0AB34FA5}
+		{2FA0A6B5-A9DF-428B-88B8-D5F5BE38C390} = {B72185A7-39DE-4767-A7E9-9CBB0AB34FA5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E611787-96B7-4839-96E9-7DD6B276E23D}
+	EndGlobalSection
+EndGlobal
